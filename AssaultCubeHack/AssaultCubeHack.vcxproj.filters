@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{40e3268f-1d51-4c57-b0b9-3c828459deba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{fd3fd3fd-1a42-4fa1-a0a2-bb4c00c2b12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssaultCube">
+      <UniqueIdentifier>{8efe579b-1153-45fd-b8f7-833d37333a46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="vec.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>AssaultCube</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Internal.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueTracker.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>AssaultCube</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>AssaultCube</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
